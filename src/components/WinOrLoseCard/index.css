@@ -1,0 +1,53 @@
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.card-container {
+  width: 70%;
+  height: 400px;
+  border-radius: 15px;
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.result {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0;
+}
+.score-text {
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6a59ff;
+  text-align: center;
+  margin: 0;
+}
+.button {
+  font-size: 12px;
+  background-color: #ffce27;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  padding: 8px;
+  font-weight: bold;
+}
+.image {
+  width: 300px;
+  height: 300px;
+}

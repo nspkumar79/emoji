@@ -1,0 +1,25 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff33;
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  width: 30px;
+  height: 30px;
+}
+.nav-text-container {
+  display: flex;
+}
+.nav-text {
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 15px;
+}
