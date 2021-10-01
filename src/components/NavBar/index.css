@@ -11,9 +11,17 @@
   justify-content: space-between;
   align-items: center;
 }
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
 .nav-logo {
   width: 30px;
   height: 30px;
+}
+.nav-heading {
+  color: #ffffff;
+  font-size: 15px;
 }
 .nav-text-container {
   display: flex;

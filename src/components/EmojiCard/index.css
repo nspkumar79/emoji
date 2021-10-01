@@ -1,4 +1,4 @@
-.emoji-card {
+.list-item-container {
   background-color: #ffffff33;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -10,6 +10,13 @@
   cursor: pointer;
   outline: none;
   border: none;
+}
+.emoji-card {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0;
 }
 .emoji {
   width: 75px;

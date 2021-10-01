@@ -18,14 +18,14 @@ const WinOrLoseCard = props => {
     <div className="result-container">
       <div className="card-container">
         <div className="text-container">
-          <p className="result">{result}</p>
+          <h1 className="result">{result}</h1>
           <p className="score-text">{scoreText}</p>
           <p className="score">{score}/12</p>
           <button onClick={onClicked} type="button" className="button">
             Play Again
           </button>
         </div>
-        <img className="image" src={imageUrl} alt="game" />
+        <img className="image" src={imageUrl} alt="win or lose" />
       </div>
     </div>
   )

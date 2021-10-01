@@ -52,7 +52,6 @@ class EmojiGame extends Component {
     const {selectedList} = this.state
     const {emojisList} = this.props
     let isPresent = 0
-    console.log(isPresent)
 
     selectedList.forEach(eachListItem => {
       if (eachListItem.id === id) {
@@ -81,10 +80,10 @@ class EmojiGame extends Component {
 
     return (
       <div className="bg-container">
-        <NavBar score={score} topScore={topScore} />
+        <NavBar isEnd={isEnd} score={score} topScore={topScore} />
         {!isEnd ? (
           <div className="responsive-container">
-            <div className="emoji-container">
+            <ul className="emoji-container">
               {shuffledEmojisList().map(eachItem => (
                 <EmojiCard
                   onClicked={this.onClicked}
@@ -92,7 +91,7 @@ class EmojiGame extends Component {
                   key={eachItem.id}
                 />
               ))}
-            </div>
+            </ul>
           </div>
         ) : (
           <WinOrLoseCard
